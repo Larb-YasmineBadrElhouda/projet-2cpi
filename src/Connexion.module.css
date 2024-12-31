@@ -1,0 +1,103 @@
+.formpere{
+    position: fixed;
+    top: -85px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0,0,0,.6);
+    z-index: 1;
+}
+.form{
+    text-align: center;
+    width: 350px;
+    height: 450px;
+    border: 4px solid #477ed6;
+    position: fixed;
+    margin: 100px 40%;
+    z-index: 10 !important;
+    background-color:white !important;
+}
+.fermer{
+    z-index: 1;
+    position: relative;
+    font-size:27px;
+    width:30px;
+    height: 29px;
+    text-align: center;
+    padding-left: 0px;
+    padding-top: -3px;
+    left: 175px;
+    background-color:aliceblue;
+    color:blue;
+    border-left: 4px solid #477ed6;
+    border-bottom: 4px solid #477ed6;
+    border-top:none ;
+    border-right: none;
+    cursor: pointer;
+}
+.inscrire{
+    margin-top :0px !important;
+    text-align: center;
+    margin-top: 50px;
+    width:320px;
+    z-index: 1;
+}
+.info{
+    margin:auto;
+    text-align:center;
+    margin-top:50px;
+    width:300px;
+    z-index: 10;
+}
+.email{
+    margin-right:75px;
+    z-index: 10;
+}
+.password{
+    margin-right:85px;
+    z-index: 10;
+}
+.a{
+    margin-right: 100px;
+    z-index: 10;
+}
+.envoyer{
+    margin-left:180px;
+    width:60px;
+    height:20px;
+    cursor: pointer;
+    z-index: 1;
+}
+@media only screen and (max-width:1020px){
+    .form{
+       right:4%; 
+    }
+}
+@media only screen and (max-width:800px){
+    .form{
+        right:-3%;
+    }
+}
+@media only screen and (max-width:690px){
+    .form{
+        right:-10% ;
+    }
+}
+@media only screen and (max-width:600px){
+    .form{
+        width: 340px;
+        right: -22%;
+    }
+    .fermer{
+        left: 165px;
+    }
+}
+@media only screen and (max-width:520px){
+    .form{
+        width: 340px;
+        right:-30% ;
+    }
+    .fermer{
+        left: 165px;
+    }
+}

@@ -1,0 +1,674 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: #58A4CF;
+    z-index: 1;
+}
+#logoo{
+    height: 60px;
+    position: relative;
+    top: 4px;
+    bottom: 5px;
+    left: 20px;
+}
+label{
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: x-large;
+    cursor: pointer;
+    float:right;
+    padding: 4px;
+    margin-top: 15px;
+    margin-right: 20px;
+    display: none;
+}
+#toggle {
+    float: right;
+    display: none;
+}
+.headerlist{
+    display: flex;
+    position: relative;
+    position: absolute;
+    top: 25px;
+    left: 30%;
+}
+.headerlist li{
+    margin-left: 30px;
+    list-style-type: none;
+    color:white ;
+    width: 106px;
+    font-size: 19px;
+}
+#sign{
+    position: relative;
+    position: absolute;
+    right: 130px;
+    top: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 19px;
+    background-color: #5D2892;
+    color: white;
+    border:none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+#sign:hover{
+    border: 2px solid #5D2892;
+    background-color: #58A4CF;
+}
+#log{
+    position: relative;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: medium;
+    color: rgb(215, 209, 197);
+    border: 2px solid rgb(215, 209, 197);
+    border-radius: 20px;
+    background-color: #58A4CF;
+    cursor: pointer;
+}
+#log:hover{
+    border: 1px solid #58A4CF;
+    background-color: rgb(182, 204, 223);
+    color: white;
+}
+.partie1{
+    height: 620px;
+}
+.partie1 img{
+    width: 100%;
+    height: 555px;
+    margin-top: 70px;
+}
+.partie1 h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    position: relative;
+    position: absolute;
+    top: 170px;
+    left: 250px;
+    right: 250px;
+}
+.partie1 section{
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    position: relative;
+    position: absolute;
+    top: 360px;
+    left: 23%;
+    right: 23%;
+}
+.partie2 img{
+    width: 500px;
+    height: 555px;
+    margin-left: 50px;
+}
+#image2{
+    background-color: rgb(212, 209, 209);
+    width: 600px;
+}
+.partie2{
+    background-color: #EAEAEA;
+}
+.partie2 h1{
+    font-size: 58px;
+    position: relative;
+    position: absolute;
+    top: 665px;
+    left: 650px;
+    color: #4D95BE;
+}
+.partie2 section{
+    font-size: 27px;
+    color: #7E8A90;
+    position: relative;
+    position: absolute;
+    top: 750px;
+    left: 700px;
+    right: 20px;
+}
+.partie3{
+    background-color: #E1F1F4;
+    height: 555px;
+}
+.partie3 h1{
+    font-size: 58px;
+    color: #4D95BE;
+    text-align: center;
+    position: relative;
+    position: absolute;
+    top:1330px;
+    left: 10px;
+    right: 650px;
+}
+.partie3 section{
+    font-size: 27px;
+    color: #7E8A90;
+    text-align: center;
+    position: relative;
+    position: absolute;
+    top: 1480px;
+    left: 40px;
+    right: 690px;
+}
+.partie3 video{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    position: absolute;
+    top: 1275px;
+    right:30px;
+}
+.partie4 img{
+    width: 100%;
+    height: 555px;
+}
+.partie4 h1{
+    position: relative;
+    position: absolute;
+    top: 1790px;
+    left: 45%;
+    right: 10px;
+    color: white;
+    font-size: 58px;
+}
+.feedback1,.feedback2,.feedback3{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+}
+.feedback1 div,.feedback2 div,.feedback3 div{
+    display: flex;
+}
+.feedback1 img,.feedback2 img,.feedback3 img{
+    width: 65px;
+    height: 65px;
+    border-radius: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.feedback1 div p,.feedback2 div p,.feedback3 div p{
+    margin-top: 15px;
+    margin-left: 8px;
+    font-size: 18px;
+}
+.feedback1 span,.feedback2 span,.feedback3 span{
+    font-size: 16px;
+    position: relative;
+    top: 5px;
+}
+#comment{
+    font-size: x-large;
+    margin-left: 10px;
+    margin-top: 18px;
+}
+.feedback1{
+    position: relative;
+    position: absolute;
+    top: 1800px;
+    left: 10%;
+}
+.feedback2{
+    position: relative;
+    position: absolute;
+    top: 2070px;
+    left: 25%;
+}
+.feedback3{
+    position: relative;
+    position: absolute;
+    top: 1990px;
+    right: 174px;
+}
+#join{
+    font-size: 60px;
+    color: #4D95BE;
+    text-align: center;
+    margin-top: 90px;
+}
+.partie5{
+    height: 395px;
+    display: flex;
+}
+.partie5 img{
+    width: 150px;
+    height: 165px;
+    margin-top: 150px;
+}
+.partie5 div{
+    margin-top: 170px;
+    margin-left: 15px;
+}
+.partie5 section{
+    font-size: 18px;
+    font-family: Trebuchet MS;
+}
+#image4{
+    margin-left: 20px;
+}
+.part1 h3{
+    width: 250px;
+    font-size: 28px;
+    font-family: Franklin Gothic Medium;
+    letter-spacing: 4px;
+    position: relative;
+    margin-left:-47px;
+}
+#image5{
+    margin-left: 20px;
+}
+.part2 h3,.part3 h3{
+    font-size: 28px;
+    font-family: Franklin Gothic Medium;
+    letter-spacing: 4px;
+}
+.part2  section{
+    width: 250px;
+}
+#image6{
+    margin-left: 50px;
+}
+.part3 h3{
+    margin-right: 140px;
+}
+.part3 section{
+    width: 240px;
+}
+button{
+    border:none;
+    background:none; 
+    width: 200px;
+}
+footer{
+    height: 182px;
+    background-color: #5C90AE;
+}
+#logo{
+    width: 120px;
+    height: 140px;
+    margin-left: 160px;
+    margin-top: -28px;
+}
+.footerlist{
+    display: flex;
+    position: relative;
+    top: 50px;
+}
+.footerlist li{
+    list-style-type: none;
+    color: white;
+    padding-bottom: 30px;
+    margin-left: 70px;
+    font-size: 22px;
+}
+#copyright{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 45px;
+}
+.fa-heart{
+    color: red;
+}
+@media only screen and (max-width:1150px){
+    .headerlist{
+        left: 20%;
+    }
+    .partie2 h1{
+        top: 630px;
+    }
+    .partie2 section{
+        top: 730px;
+    }
+}  
+@media only screen and (max-width:960px){
+    label {
+        display: block;
+    }
+    .headerlist{
+        display:none;
+        left:78%;
+        margin-top: 27px;
+    }
+    #li1{
+        border-top: 2px solid black !important;
+        border-top-right-radius: 7px;
+    }
+    .headerlist li{
+        width: 125px;
+        height: 35px;
+        border-top: 0px !important;
+        border: 2px solid black;
+        text-align: center;
+        padding-top: 6px;
+        padding-bottom: -8px;
+       
+    }
+    #toggle:checked + .headerlist{
+        display: block;
+    }
+    #sign{
+        margin-right: 50px;
+    }
+    #log{
+        margin-right: 40px;
+    }
+    .partie3 video{
+        left: 17% !important;
+    }
+}
+@media only screen and (max-width:1035px){
+    .partie1 h1{
+        left:185px;
+        right: 185px;
+    }
+    #image4{
+        margin-left: 5% !important;
+    }
+    .part1 *{
+        margin-left: -2.7%;
+    }
+    .part1 section{
+        width: 200px;
+    }
+    #image5{
+        margin-left:50% !important;
+    }
+    .part2 *{
+        margin-left: -23.6% !important;
+    }
+    #image6{
+        margin-left:30% !important;
+    }
+    .part3 *{
+        margin-left: -2.8%;
+    }
+}
+@media only screen and (max-width:905px){
+    .partie1 h1{
+        left:120px;
+        right: 120px;
+        top: 130px;
+    }
+    .partie2 h1{
+        left: 25% !important;
+    }
+}
+@media only screen and (max-width:630px){
+    .partie1 h1{
+        left:90px;
+        right: 90px;
+        top: 110px;
+    }
+}
+@media only screen and (max-width:1140px){
+    .partie2 img{
+        width: 100%;
+        margin-left: 0px;
+    }
+    #image2{
+        width: 100%;
+        background-color: #EAEAEA;
+    }
+    .partie2 h1{
+        top:675px;
+        left: 30%;
+    }
+    .partie2 section{
+        text-align: center;
+        color: black;
+        top: 780px;
+        left: 50px;
+        right: 50px;
+    }
+}
+@media only screen and (max-width:704px){
+    .partie2 h1{
+        left: 17% !important;
+    }
+    .partie3 h1{
+        left: 35px !important;
+        right: 35px !important;
+    }
+    .partie3 section{
+        left: 40px !important;
+        right: 40px !important;
+    }
+    .partie3 video{
+        width: 530px;
+        margin-left: 0%;
+    }
+}
+@media only screen and (max-width:1064px){
+    .partie3{
+        height:650px;
+    }
+    .partie3 h1{
+        top: 1190px;
+        left: 150px;
+        right: 150px;
+    }
+    .partie3 section{
+        top: 1320px;
+        left: 70px;
+        right: 70px;
+    }
+    .partie3 video{
+        top: 1420px;
+        left: 22%;
+    }
+    .partie4 h1{
+        top: 1850px;
+    }
+    .feedback1{
+        top: 1860px;
+    }
+    .feedback2{
+        top: 2130px;
+        left: 20%;
+    }
+    .feedback3{
+        top: 2050px;
+        right: 110px;
+    }
+}
+@media only screen and (max-width:850px){
+    .partie3 video{
+        left: 11.2% !important;
+    }
+    .partie5{
+        height: 680px;
+    }
+    #image4{
+        margin-left: 9% !important;
+    }
+    .part1 h3{
+        margin-left: 35%;
+    }
+    .part1 section{
+        margin-left:17%;
+        width: auto;
+    }
+    #image5{
+        margin-left:9% !important;
+        margin-top: 85px !important;
+    }
+    .part2 h3{
+        margin-left: -270% !important;
+        position:static;
+    }
+    .part2 section{
+        margin-left: -140% !important;
+        width: auto;
+    }
+    #image6{
+        margin-left:9% !important;
+        margin-top: 90px !important;
+    }
+    .part3 h3{
+        margin-left: -86px !important;
+    }
+    .part3 section{
+        margin-left: -105px;
+        width: auto;
+    }
+}
+@media only screen and (max-width:621px){
+    .partie3 video{
+        width: 500px;
+        margin-left: -5%;
+    }
+}
+@media only screen and (max-width:920px){
+    .feedback1{
+        display: none;
+    }
+    .feedback2{
+        top: 2100px;
+        left: 7%;
+    }
+    .feedback3{
+        top: 2100px;
+        right: 80px;
+    }
+    .partie4 h1{
+        text-align: center;
+        left: 10px;
+    }
+    .footerlist li{
+        font-size: 19px;
+        margin-left: 35px;
+    }
+    #logo{
+        width: 100px;
+        height: 120;
+        margin-top: 0px;
+        margin-left: 20px !important;
+    }
+}
+@media only screen and (max-width:765px){
+    .feedback2{
+        top: 1970px;
+    }
+    .feedback3{
+        top: 2175px;
+    }
+    .partie4 h1{
+        top:1844px;
+        left: 5px;
+        right: 5px;
+    }
+    .part2 h3{
+        margin-left: -240% !important;
+    }
+}
+@media only screen and (max-width:721px){
+    .partie4 h1{
+        font-size: 46px;
+        left: 1px;
+        right: 1px;
+    }
+}
+@media only screen and (max-width:1294px){
+    .partie5{
+        display:block ;
+    }
+    .partie5 div{
+        margin-top:0px;
+    }
+    #image4{
+        margin-top:50px;
+        margin-left: 10%;
+    }
+    .part1{
+        margin-top: -140px !important;
+        margin-left: 24.3% !important;
+    }
+    #image5{
+        margin-top: -132px;
+        margin-left:60%;
+    }
+    .part2{
+        margin-top: -150px !important;
+        margin-left: 74% !important;
+    }
+    .part2 section{
+        margin-top: -10px;
+        margin-left: 20px;
+    }
+    #image6{
+        margin-top: -2px;
+        margin-left:35%;
+    }
+    .part3 {
+        margin-top: -140px !important;
+        margin-left: 50% !important;
+    }
+}
+@media only screen and (max-width:690px){
+    .part2 h3{
+        margin-left: -200% !important;
+    }
+    .part3 h3{
+        margin-left: -60px !important;
+    }
+    .part3 section{
+        margin-left: -86px;
+    }
+    .footerlist{
+        display: block;
+        top: 35px;
+    }
+    .footerlist li{
+        padding-bottom: 20px;
+        margin-left: 50px;
+    }
+    #logo{
+        margin-top: -375px;
+        margin-left: 400px !important;
+    }
+    footer{
+        height: 433px !important;
+    }
+    #copyright{
+        top: 30px;
+    }
+    .part2 button{
+        width: 178px;
+    }
+}
+@media only screen and (max-width:1312px){
+    footer{
+        height: 201px;
+    }
+}
+@media only screen and (max-width:1080px){
+    footer{
+        height: 210px;
+    }
+    #logo{
+        margin-left: 0%;
+    }
+    .part2 section{
+        width: 242px;
+    }
+  
+}

@@ -1,0 +1,51 @@
+.forme{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border: 2px solid black;
+    padding-left: 120px;
+    padding-top: 40px;
+    border-radius: 20px;
+    position: relative;
+    position: fixed;
+    top: 125px;
+    left: 560px;
+    z-index: 11;
+    background-color: white !important;
+}
+.infoo{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.h{
+    position: relative;
+    top: -55px;
+}
+.s{
+    position: relative;
+    top: -5px;
+}
+.fermer{
+    position: relative;
+    left: 270px;
+    top: -37px;
+    font-size: 23px;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.peree{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 10;
+    background-color: cadetblue;
+}
+.env{
+    position: relative;
+    left:170px;
+}

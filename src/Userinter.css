@@ -1,0 +1,362 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 2000px;
+    background-color:white;
+}
+header{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: aliceblue;
+    height: 85px;
+    top: 0px;
+}
+.h2{
+    font-size:2rem;
+    margin-left: 50px;
+    margin-top: 15px;
+    color: #790c50;
+}
+#log{
+    position: relative;
+    position: absolute;
+    right: 130px;
+    top: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: medium;
+    border: none;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+#h{
+    color:#790c50;
+}
+#log:hover{
+    border: 1px solid #1a2980;
+    background-color: rgb(172, 208, 240);
+}
+#sign{
+    position: relative;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: medium;
+    background-color: #1a2980;
+    color: aliceblue;
+    border-color: #1a2980;
+    cursor: pointer;
+}
+#sign:hover{
+    border: 1px solid #1a2980;
+    background-color: rgb(172, 208, 240);
+    color: #1a2980;
+}
+.headerlist{
+    display: flex;
+    position: relative;
+    position: absolute;
+    top: 35px;
+    left: 40%;
+}
+.headerlist li{
+    margin-left: 30px;
+    cursor: pointer;
+    list-style-type: none;
+    color:#790c50 !important;
+    width: 106px;
+}
+#ls button{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+#h{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    width: 100px;
+}
+.headerlist li::after{
+    content: '';
+    position: absolute !important;
+    height: 0.160rem;
+    background:#26d0ce ;
+    transition: 0.5s linear;
+    bottom: 0px;
+    width: 0%;
+    margin-left: -105px !important;
+}
+.headerlist li:hover::after{
+    content: '';
+    border: #26d0ce;
+    width: 26%;
+}
+.headerlist li:hover{
+    border-radius: 5px;
+}
+.headerlist a{
+    text-decoration: none;
+}
+video{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    position: absolute;
+    top: 180px;
+} 
+#desc{
+    position: relative;
+    top: 750px;
+}
+fieldset{
+    font-size: 1.5em;
+    position: relative;
+    top: 920px;
+    border: 2px solid black;
+    width:80%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+fieldset p{
+    text-align: center;
+}
+legend{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+table{
+    position: relative;
+    top: 950px ;
+    margin: auto;
+    border: 2px solid black;
+}
+td{
+    width: 27%;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+}
+td .fa-facebook{
+    color: #1a2980;
+    font-size: 2rem;
+}
+td .fa-at{
+    color:red;
+    font-size: 2rem;
+}
+td .fa-github{
+    color:#171515;
+    font-size: 2rem;
+}
+#scroll{
+    position: relative;
+    top: 500px;
+}
+article{
+    position: relative;
+    top:1000px;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    height: 250px;
+    border-radius: 80px;
+    background-color: whitesmoke;
+}
+article h2{
+    margin: auto;
+    top: 15px;
+    position: relative;
+}
+#entreprise , #utilisateur ,#emploi{
+    padding: 10px 5px;
+    margin: auto;
+    margin-top: 30px !important;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#entreprise:hover{
+    background-color: #910c5ec0;
+    color: whitesmoke !important;
+}
+#utilisateur:hover{
+    background-color: #910c5ec0;
+    color: whitesmoke !important;
+}
+#emploi:hover{
+    background-color: #910c5ec0;
+    color: whitesmoke !important;
+}
+#emploi{
+    width: 170px;
+}
+footer{
+    background: #477ed6;
+    height: 150px;
+    width: 100%;
+    position: relative;
+    position: absolute;
+    bottom:-1850px;   
+}
+footer h1{
+    position: relative;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    color: white;
+} 
+.footerlist{
+    position: relative;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+.footerlist a{
+    text-decoration: none;
+}
+.footerlist li {
+    list-style-type: none ;
+    color: white;
+    padding-bottom: 10px;
+} 
+#contact{
+    padding-left: 30px;
+}
+#love{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 120px;
+}
+#heart i{
+    color: red;
+}  
+.fa-bars{
+    width:21px;
+    height: 21px;
+    text-align: center;
+    color: #a099ff;
+    border-radius: 5px;
+    border: 2px solid  #a099ff;
+    font-size: large;
+    display: none !important;
+    float: right;
+    position: relative;
+    position:absolute;
+    right: 5px;
+    bottom: 35px;
+    padding-top: 2px;
+}
+.fa-bars:hover{
+    background-color: #a099ff;
+    color:#1b3764;
+    border:2px solid #1b3764;
+}
+#toggle {
+    float: right;
+    position: relative;
+    position: absolute;
+    right: 25px;
+    bottom:35px;
+    display: none;
+}
+#ls{
+    display: none;
+}    
+@media only screen and (max-width:1020px){
+    .headerlist{
+        position: relative;
+        position: absolute;
+        top: 60px;
+        left: 5%;
+    }
+}
+@media only screen and (min-width:778px){
+    table{
+      width: 81%;
+    }
+}
+@media only screen and (max-width:670px){
+    h2{
+        font-size: 1.8rem; 
+    }
+    .fa-bars{
+        display:block !important;
+        cursor: pointer;
+    }
+    #butt{
+        display: none;
+    }
+    #ls{
+        display: block;
+    }
+    .headerlist{
+        display: block;
+        border: 2px solid darkblue;
+        border-bottom: 0px;
+        position: relative;
+        position: absolute;
+        left: 100%;
+        top: 50px;
+    }
+    .headerlist li{
+        border-bottom:2px solid  ;
+        text-align:center;
+        margin-left: 0px;
+        width: 130px;
+        height: 25px;
+        padding-top: 10px;
+        background-color: #26d0ce;
+    }
+    .headerlist li:hover{
+        border-radius:0px;
+        background-color: #1a2980;
+    }
+    .headerlist li:hover::after{
+        width: 0%;
+    }
+    #h{
+        background-color: transparent;
+        cursor: pointer;
+        width:130px ;
+        height: 30px;
+        margin-top: -15px;
+        border: none;
+    }
+    #h:hover{
+        color:#26d0ce;
+        background-color:#1a2980;;
+    }
+    #ls button{
+        cursor: pointer;
+        width:130px ;
+        height: 30px;
+        border: none;
+        background-color:transparent;
+        margin-top: -15px;
+    }
+    #ls button:hover{
+        color:#26d0ce;
+    }
+    #toggle:checked + .headerlist{
+        left: 68%;
+        transition: all 0.5s ease;
+    }
+}
+@media only screen and (max-width:670px) and (min-width:530px){
+    #toggle:checked + .headerlist{
+        left: 74%;
+    } 
+}
+

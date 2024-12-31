@@ -1,0 +1,50 @@
+.form{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border: 2px solid black;
+    padding-left: 120px;
+    border-radius: 20px;
+    position: relative;
+    position:fixed;
+    top: 180px;
+    left: 37%;
+    z-index: 11;
+    background-color: white !important;
+}
+.info{
+    margin-top: 5px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.h{
+    position: relative;
+    top: -25px;
+}
+.s{
+    position: relative;
+    top: -5px;
+}
+.fermer{
+    position: relative;
+    left: 265px;
+    top: 6px;
+    font-size: 24px;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.per{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color:coral;
+    z-index: 10;
+}
+.env{
+    position: relative;
+    left:170px;
+}
